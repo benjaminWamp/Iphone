@@ -1,0 +1,47 @@
+.plaque{
+    position: absolute;
+    transform: scale(0.9);
+    width: 156.4px;
+    height: 156.4px;
+    background: linear-gradient(250deg, rgba(249,249,249,1) 48%, rgba(208,208,208,1) 54%);
+    border-radius: 35px;
+    box-shadow: -5px 5px 10px grey;
+}
+
+.contour2{
+    position: absolute;
+    transform: translate(79px,-35px);
+    box-shadow: 0px 2px 3px grey;
+}
+
+.contour1{
+    transform: translate(3px,3px);
+    box-shadow: 0px 2px 3px grey;
+}
+
+.contour3{
+    transform: translate(3px,5px);
+    box-shadow: 0px 2px 3px grey;
+}
+
+.contour4{
+    transform: translate(103px, -140px);
+    box-shadow: 0px 1px 3px grey;
+}
+
+.micro{
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    border-radius: 50%;
+    transform: translate(139px,-53px);
+}
+
+.haut_parleur{
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(90deg, rgba(73,73,73,1) 0%, rgba(64,64,64,1) 23%, rgba(47,47,47,1) 49%, rgba(24,24,24,1) 80%, rgba(1,1,1,1) 100%, rgba(0,0,0,1) 100%, rgba(0,0,0,1) 100%);
+    border-radius: 50%;
+    transform-origin: center;
+    transform: rotate(-45deg) translate(114px, 39px);
+}

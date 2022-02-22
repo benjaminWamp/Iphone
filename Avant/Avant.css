@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.corps {
+  position: relative;
+  margin: auto;
+  border-radius: 50px 50px 50px 50px;
+  border: solid 1px;
+  background-color: #faf2dd;
+  width: 295.2px;
+  height: 607.8px;
+  -webkit-box-shadow: 10px 10px 20px gray;
+          box-shadow: 10px 10px 20px gray;
+}
+
+.corps #screen {
+  margin: 2px 1px 1px 2px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e66465), to(#9198e5));
+  background: linear-gradient(#e66465, #9198e5);
+  border-radius: 50px 50px 50px 50px;
+  width: 270px;
+  height: 582px;
+  border: solid 10px;
+}
+
+.corps #screen .encoche {
+  position: relative;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+  background-color: black;
+  width: 90px;
+  height: 18px;
+}
+
+.corps #screen .encoche::before {
+  -webkit-transform: translate(-5px, -0.1px);
+          transform: translate(-5px, -0.1px);
+  content: "";
+  -webkit-box-shadow: 2px -9px black;
+          box-shadow: 2px -9px black;
+  border-radius: 0px 20px 0px 0px;
+  position: absolute;
+  background-color: transparente;
+  width: 5px;
+  height: 18px;
+}
+
+.corps #screen .encoche::after {
+  -webkit-transform: translate(90px, -7.5px);
+          transform: translate(90px, -7.5px);
+  content: "";
+  -webkit-box-shadow: -1px -10px black;
+          box-shadow: -1px -10px black;
+  border-radius: 20px 0px 0px 0px;
+  position: absolute;
+  background-color: transparent;
+  width: 5px;
+  height: 18px;
+}
+
+.corps #screen .encoche .frontcam {
+  -webkit-transform: translate(9px, 2px);
+          transform: translate(9px, 2px);
+  background: radial-gradient(#fff 0%, #9198e5 45%, #000 100%);
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+}
+
+.corps #screen .hparleur {
+  margin: auto;
+  -webkit-transform: translate(0px, -23px);
+          transform: translate(0px, -23px);
+  border-radius: 10px 10px 10px 10px;
+  background-color: #2d2d2d;
+  width: 35px;
+  height: 5px;
+}
+
+.corps #screen p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.corps #screen .clock {
+  -webkit-transform: translate(35px, -29px);
+          transform: translate(35px, -29px);
+}
+
+.corps #screen .arrow {
+  -webkit-transform: translate(65px, -60px);
+          transform: translate(65px, -60px);
+  width: 11px;
+}
+
+.corps #screen .wifi {
+  -webkit-transform: translate(200px, -60px);
+          transform: translate(200px, -60px);
+  width: 11px;
+}
+
+.corps #screen .reseaux {
+  -webkit-transform: translate(165px, -60px);
+          transform: translate(165px, -60px);
+  width: 11px;
+}
+
+.corps #screen .batterie {
+  -webkit-transform: translate(190px, -60px);
+          transform: translate(190px, -60px);
+  width: 18px;
+}
+
+.corps #screen .app {
+  height: 70%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+  padding: 2px;
+}
+
+.corps #screen .app p {
+  font-size: 9px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.corps #screen .app .pap {
+  text-overflow: ellipsis;
+  width: 50px;
+}
+
+.corps #screen .app .milieu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.corps #screen .app .milieu .minecraft {
+  height: 35px;
+  width: 35px;
+  padding: 7px;
+  background-color: #3b3b3b;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.corps #screen .app .milieu .calculatrice {
+  height: 50px;
+}
+
+.corps #screen .app .milieu .note {
+  height: 50px;
+}
+
+.corps #screen .app .milieu .photo {
+  height: 50px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.corps #screen .app .milieu .itunes {
+  height: 50px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.corps #screen .app .milieu .twitter {
+  height: 57px;
+}
+
+.corps #screen .app .milieu .facetime {
+  height: 50px;
+}
+
+.corps #screen .app .milieu .camera {
+  height: 50px;
+}
+
+.corps #screen .app .milieu .reglage {
+  height: 50px;
+}
+
+.corps #screen .app .milieu .appel {
+  height: 50px;
+}
+
+.corps #screen .app_favorit {
+  padding: 16px 2px 13px 2px;
+  margin: 0px 7px 0px 7px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 25% 25% 25%;
+      grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  background-color: rgba(182, 182, 182, 0.7);
+  border-radius: 25px;
+}
+
+.corps #screen .app_favorit .milieu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.corps #screen .app_favorit .milieu .message {
+  height: 50px;
+}
+
+.corps #screen .app_favorit .milieu .safari {
+  height: 50px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.corps #screen .app_favorit .milieu .contact {
+  height: 50px;
+}
+
+.corps #screen .app_favorit .milieu .appstore {
+  height: 50px;
+}
+
+.corps .marque .marque1 {
+  position: relative;
+  -webkit-transform: translate(-1px, -550px);
+          transform: translate(-1px, -550px);
+  background-color: #927e63;
+  width: 3px;
+  height: 5px;
+}
+
+.corps .marque .marque1::after {
+  position: absolute;
+  -webkit-transform: translate(293px, 0px);
+          transform: translate(293px, 0px);
+  content: "";
+  background-color: #927e63;
+  width: 3.5px;
+  height: 5px;
+}
+
+.corps .marque .marque2 {
+  position: relative;
+  -webkit-transform: translate(230px, -610px);
+          transform: translate(230px, -610px);
+  background-color: #927e63;
+  width: 5px;
+  height: 2.5px;
+}
+
+.corps .marque .marque2::before {
+  position: absolute;
+  -webkit-transform: translate(-150px, 603px);
+          transform: translate(-150px, 603px);
+  content: "";
+  background-color: #927e63;
+  width: 5px;
+  height: 4px;
+}
+
+.corps .marque .marque3 {
+  position: relative;
+  -webkit-transform: translate(-1px, -75px);
+          transform: translate(-1px, -75px);
+  background-color: #927e63;
+  width: 3px;
+  height: 5px;
+}
+
+.corps .marque .marque3::after {
+  position: absolute;
+  -webkit-transform: translate(293px, 0px);
+          transform: translate(293px, 0px);
+  content: "";
+  background-color: #927e63;
+  width: 3.5px;
+  height: 5px;
+}
+
+.corps .bouton .mute {
+  -webkit-transform: translate(-4px, -510px);
+          transform: translate(-4px, -510px);
+  background: radial-gradient(circle, lightgray 87%, black 88%, lightgray 90%);
+  border-radius: 5px 0px 0px 5px;
+  border: solid 1px;
+  width: 1px;
+  height: 20px;
+}
+
+.corps .bouton .sonplus {
+  -webkit-transform: translate(-4px, -500px);
+          transform: translate(-4px, -500px);
+  background: radial-gradient(circle, lightgray 87%, black 88%, lightgray 90%);
+  border-radius: 5px 0px 0px 5px;
+  border: solid 1px;
+  width: 1px;
+  height: 40px;
+}
+
+.corps .bouton .sonmoin {
+  -webkit-transform: translate(-4px, -490px);
+          transform: translate(-4px, -490px);
+  background: radial-gradient(circle, lightgray 87%, black 88%, lightgray 90%);
+  border-radius: 5px 0px 0px 5px;
+  border: solid 1px;
+  width: 1px;
+  height: 40px;
+}
+
+.corps .bouton .onoff {
+  -webkit-transform: translate(296px, -580px);
+          transform: translate(296px, -580px);
+  border-radius: 0px 5px 5px 0px;
+  width: 0.5px;
+  height: 100px;
+  padding: 0px 0px 0px 0px;
+  background: radial-gradient(circle, lightgray 87%, black 88%, lightgray 90%);
+}
+
+.corps #screen2 {
+  position: absolute;
+  top: 0px;
+  margin: 2px 1px 1px 2px;
+  background: transparente;
+  border-radius: 50px 50px 50px 50px;
+  width: 270px;
+  height: 582px;
+  border: solid 10px;
+}
+
+.corps #screen2 .encoche2 {
+  position: relative;
+  margin: auto;
+  border-radius: 0px 0px 10px 10px;
+  background-color: black;
+  width: 90px;
+  height: 18px;
+}
+
+.corps #screen2 .encoche2::before {
+  -webkit-transform: translate(-5px, -0.1px);
+          transform: translate(-5px, -0.1px);
+  content: "";
+  -webkit-box-shadow: 2px -9px black;
+          box-shadow: 2px -9px black;
+  border-radius: 0px 20px 0px 0px;
+  position: absolute;
+  background-color: transparente;
+  width: 5px;
+  height: 18px;
+}
+
+.corps #screen2 .encoche2::after {
+  -webkit-transform: translate(90px, -7.5px);
+          transform: translate(90px, -7.5px);
+  content: "";
+  -webkit-box-shadow: -1px -10px black;
+          box-shadow: -1px -10px black;
+  border-radius: 20px 0px 0px 0px;
+  position: absolute;
+  background-color: transparent;
+  width: 5px;
+  height: 18px;
+}
+
+.corps #screen2 .encoche2 .frontcam2 {
+  -webkit-transform: translate(9px, 2px);
+          transform: translate(9px, 2px);
+  background: radial-gradient(#fff 0%, #9198e5 45%, #000 100%);
+  border-radius: 100%;
+  width: 8px;
+  height: 8px;
+}
+
+.corps #screen2 .hparleur2 {
+  margin: auto;
+  -webkit-transform: translate(0px, -23px);
+          transform: translate(0px, -23px);
+  border-radius: 10px 10px 10px 10px;
+  background-color: #2d2d2d;
+  width: 35px;
+  height: 5px;
+}
+/*# sourceMappingURL=Avant.css.map */

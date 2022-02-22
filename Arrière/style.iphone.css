@@ -1,0 +1,128 @@
+.corps {
+  position: relative;
+  margin: auto;
+  border-radius: 50px 50px 50px 50px;
+  border: solid 1px;
+  background-color: #FAFBF6;
+  width: 295.2px;
+  height: 607.8px;
+  -webkit-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.38);
+          box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.38);
+}
+
+.corps .screen {
+  margin: 3px 1px 1px 2px;
+  background-color: #F4F4F4;
+  border-radius: 50px 50px 50px 50px;
+  width: 287px;
+  height: 597px;
+  border: solid 2px darkgray;
+}
+
+.corps .screen .marque {
+  -webkit-transform: translate(-3px, 600px);
+          transform: translate(-3px, 600px);
+}
+
+.corps .screen .marque .marque1 {
+  position: relative;
+  -webkit-transform: translate(-1px, -550px);
+          transform: translate(-1px, -550px);
+  background-color: #927e63;
+  width: 3px;
+  height: 5px;
+}
+
+.corps .screen .marque .marque1::after {
+  position: absolute;
+  -webkit-transform: translate(292px, 0px);
+          transform: translate(292px, 0px);
+  content: "";
+  background-color: #927e63;
+  width: 3.5px;
+  height: 5px;
+}
+
+.corps .screen .marque .marque2 {
+  position: relative;
+  -webkit-transform: translate(60px, -610px);
+          transform: translate(60px, -610px);
+  background-color: #927e63;
+  width: 5px;
+  height: 2.5px;
+}
+
+.corps .screen .marque .marque2::before {
+  position: absolute;
+  -webkit-transform: translate(170px, 603px);
+          transform: translate(170px, 603px);
+  content: "";
+  background-color: #927e63;
+  width: 5px;
+  height: 4px;
+}
+
+.corps .screen .marque .marque3 {
+  position: relative;
+  -webkit-transform: translate(-1px, -75px);
+          transform: translate(-1px, -75px);
+  background-color: #927e63;
+  width: 3px;
+  height: 5px;
+}
+
+.corps .screen .marque .marque3::after {
+  position: absolute;
+  -webkit-transform: translate(292px, 0px);
+          transform: translate(292px, 0px);
+  content: "";
+  background-color: #927e63;
+  width: 3.5px;
+  height: 5px;
+}
+
+.corps .screen .bouton {
+  -webkit-transform: translate(-4px, 600px);
+          transform: translate(-4px, 600px);
+}
+
+.corps .screen .bouton .mute {
+  -webkit-transform: translate(296px, -510px);
+          transform: translate(296px, -510px);
+  background: radial-gradient(circle, lightgray 87%, black 88%, lightgray 90%);
+  border-radius: 0px 5px 5px 0px;
+  border: solid 1px;
+  width: 1px;
+  height: 20px;
+}
+
+.corps .screen .bouton .sonplus {
+  -webkit-transform: translate(296px, -500px);
+          transform: translate(296px, -500px);
+  background: radial-gradient(circle, lightgray 87%, black 88%, lightgray 90%);
+  border-radius: 0px 5px 5px 0px;
+  border: solid 1px;
+  width: 1px;
+  height: 40px;
+}
+
+.corps .screen .bouton .sonmoin {
+  -webkit-transform: translate(296px, -490px);
+          transform: translate(296px, -490px);
+  background: radial-gradient(circle, lightgray 87%, black 88%, lightgray 90%);
+  border-radius: 0px 5px 5px 0px;
+  border: solid 1px;
+  width: 1px;
+  height: 40px;
+}
+
+.corps .screen .bouton .onoff {
+  -webkit-transform: translate(-4px, -580px);
+          transform: translate(-4px, -580px);
+  background: radial-gradient(circle, lightgray 87%, black 88%, lightgray 90%);
+  border-radius: 5px 0px 0px 5px;
+  border: solid 1px;
+  width: 1px;
+  height: 100px;
+}
+/*# sourceMappingURL=style.iphone.css.map */
