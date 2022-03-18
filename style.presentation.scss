@@ -1,0 +1,49 @@
+
+
+.logoapple{
+    position:absolute;
+    width:70px;
+    transform:translate(110px, 235px);  
+  }
+
+  .presentation{
+      &:hover{
+        .presentarriere{
+            position: absolute;
+            transform:translate(500px, -610px);
+        }
+
+      }
+  }
+
+  .app_favorit{
+    padding: 16px 2px 13px 2px;
+    margin: 0px 7px 0px 7px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+    background-color: rgba($color: #B6B6B6, $alpha: 0.7);
+    border-radius: 25px;
+
+    .milieu{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .message{
+        height: 50px;
+      }
+      .safari{
+        height: 50px;
+        background-color: white;
+        border-radius: 12px;
+      }
+      .contact{
+        height: 50px;
+      }
+      .appstore{
+        height: 50px;
+      }
+    }
+  }

@@ -1,0 +1,45 @@
+html{
+  background-color: #3f3f3f;
+}
+
+.logoapple {
+  position: absolute;
+  width: 70px;
+  -webkit-transform: translate(110px, 235px);
+          transform: translate(110px, 235px);
+}
+
+.presentation:hover .presentarriere {
+  transform:translateX(220px);
+  
+}
+
+.presentation:hover .presentavant {
+  transform:translateX(-220px);
+  
+}
+
+body{
+  display:flex;
+  justify-content: center;
+}
+
+.presentation{
+  position: relative;
+  width:300px;
+  height:100vh;
+  margin-top: 164px;
+}
+
+.presentarriere, .presentavant{
+  position:absolute;
+  transition:all ease-in 1s;
+}
+
+.presentavant{
+  transform:translateX(-50px);
+}
+
+.presentarriere{
+  transform:translateX(50px);
+}
